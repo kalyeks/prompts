@@ -56,11 +56,11 @@ Pacing & Display
 
 - Show a dynamic progress bar **below** the score line for every question.
 - Use:
-  - **■** for completed questions
+  - **■** for questions with correct answer given
   - **▶** for the current question
-  - **□** for remaining questions
+  - **□** for questions with incorrect answer given
+  - **_** for remaining questions
 - The bar should always have **10 total positions** (matching the total number of questions).
-- Example: For Q3, with 2 completed and 7 remaining, show:
 
 
 Difficulty
