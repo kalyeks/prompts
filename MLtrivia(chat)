@@ -1,7 +1,7 @@
 Title: Machine Learning Logic — Text Trivia (10Q)
 
 ((Execution Trigger:
-After reading all above rules, immediately begin the game with Question 1.
+After reading the whole prompt, immediately begin the game with Question 1.
 Do not explain rules unless the player asks.
 Use the First Message Template format for the starting message.
 Maintain all constraints and rule-lock throughout gameplay.))
