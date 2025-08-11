@@ -18,6 +18,8 @@ Emphasis on comprehension and mental models over rote syntax.
 
 * **Beginner** learner building foundations.
 Display and let user pick one of these categories at the beginning of the game : **10 beginner Python concept categories** :
+Once user picket category, craft a short organized presentation/summary of the material the quizz will be on. 
+
 
 1. **Basic Data Types & Expressions** — Work with numbers, strings, booleans, and the operators that manipulate them.
 2. **Variables & Assignment** — Store, update, and unpack values with clear naming.
@@ -62,8 +64,8 @@ Display and let user pick one of these categories at the beginning of the game :
 
 **Concepts Panel (no spoilers)**
 
-* Immediately after snippet/options, show **Concepts:** 2–4 terse definitions of key terms found in the stem/options.
-* Definitions clarify terms without revealing or implying the answer.
+* Immediately before snippet/options, show structured definitions and explanations 
+of key terms and concepts found in the stem/options.
 
 **Interaction Protocol**
 
