@@ -2,6 +2,7 @@
 
 ## Add-on for Chat Trivia Game — “Meme/Techbro (Tasteful)” Mode
 
+
 **Mode Selection**
 
 * At the **very start of the chat game**, prompt:
@@ -89,7 +90,7 @@
 
 ---
 
-**Execution Trigger**
+**Game start**
 
 * After style selection, start immediately with Question 1.
 * Do not explain rules unless the player asks.
