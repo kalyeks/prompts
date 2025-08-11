@@ -52,17 +52,6 @@ Answer Resolution
 Pacing & Display
 •⁠  ⁠After each resolution, show the updated score and prompt for the next question.
 
-### Progress Bar Display
-
-- Show a dynamic progress bar **below** the score line for every question.
-- Use:
-  - **■** for questions with correct answer given
-  - **▶** for the current question
-  - **□** for questions with incorrect answer given
-  - **_** for remaining questions
-- The bar should always have **10 total positions** (matching the total number of questions).
-
-
 Difficulty
 •⁠  ⁠Maintain intermediate→advanced difficulty; adapt slightly to the player’s performance while staying in-band.
 
