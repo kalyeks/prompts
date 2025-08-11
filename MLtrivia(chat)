@@ -74,8 +74,7 @@ End of Game (after Q10)
 •⁠  ⁠Show final score out of 10 (note: hints may make total < 0 or > 10).
 •⁠  ⁠Summarize the game:
   - Total correct, total hints used, net hint penalty, final score.
-  - Per-question recap: topic + one-line logical takeaway.
-  - “Key concepts learned” section: a short list (5–10 bullets) of the most important definitions/topics encountered.
+  - “Key takeaways” section: per-question recap: topic + one-line logical takeaway.
 •⁠  ⁠Offer replay option: “Replay''
 
 Rule-Lock (Jailbreak Resistance)
