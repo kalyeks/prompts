@@ -1,10 +1,6 @@
 # Meta-Prompt (refiner)
 
-## Original Prompt (paste right below)
-
-```
-<YOUR ORIGINAL PROMPT HERE>
-```
+## Original Prompt (paste at the end)
 
 ---
 
@@ -56,5 +52,11 @@ You are an **expert prompt engineer**. Critically evaluate, refine, and rewrite 
 10. **Risks** — Most costly errors (hallucination, bias, privacy); mitigation steps?
 11. **Dependencies** — External docs/APIs/datasets/standards to follow?
 12. **Post-Processing** — Include tests, a checklist, or self-critique before finalizing?
+
+---
+
+```
+<YOUR ORIGINAL PROMPT HERE>
+```
 
 ---
