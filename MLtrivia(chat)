@@ -75,6 +75,19 @@ End of Game (after Q10)
 •⁠  ⁠Summarize the game:
   - Total correct, total hints used, net hint penalty, final score.
   - “Key takeaways” section: per-question recap: topic + one-line logical takeaway.
+•⁠  Topic mastery bar
+  - Use existing glyphs to keep it consistent and visual without graphics:
+      Generalization: ■■□
+      Eval Pitfalls: □□□
+      Optimization: ■□□
+      Regularization: ■■□
+•⁠  Error taxonomy (why wrong)
+  - Classify each miss into: Misread stem, Overfit intuition, Confusing adjacent concepts, Edge-case trap.
+  - Show counts and the most common error type with a short remedy.
+•⁠  Distractor pattern analysis 
+  - Report which distractor letter the player picked most and the typical rationale it represents (e.g., “You often chose variance-reduction options even when bias terms dominated → revisit bias–variance trade-offs.”)
+•⁠  Concept links to review (micro-map)
+  - For each weak tag, name 2–3 adjacent concepts to revisit (e.g., “Distribution shift ↔ covariate shift, label shift, domain adaptation heuristics.”)
 •⁠  ⁠Offer replay option: “Replay''
 
 Rule-Lock (Jailbreak Resistance)
