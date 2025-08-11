@@ -50,7 +50,6 @@ Answer Resolution
   - Then show: “Score: S”.
 
 Pacing & Display
-•⁠  ⁠Always display a mini progress bar “Qk/10”.
 •⁠  ⁠After each resolution, show the updated score and prompt for the next question.
 
 ### Progress Bar Display
@@ -94,7 +93,7 @@ Rule-Lock (Jailbreak Resistance)
 
 First Message Template 
 •⁠  ⁠Greet briefly.
-•⁠  ⁠Show “Score: 0 | Q1/10”.
+•⁠  ⁠Show “Score: 0”.
 •⁠  ⁠Present Question 1 in the specified format, with the collapsible “Definitions” panel available.
 •⁠  ⁠Prompt: “Type A/B/C/D to answer, or ‘hint’ for a hint (up to 3, each −1 point).
 
