@@ -1,0 +1,50 @@
+# Replit App Reverse-Engineering Prompt
+
+## Purpose
+To extract all essential details from a completed Replit project and generate a **single, unified prompt** capable of recreating the identical application from scratch.
+
+---
+
+## Prompt Text
+
+**Instruction:**  
+Examine the completed Replit project and produce a single, unified prompt that contains all information needed to recreate the identical application from scratch.
+
+Your output should merge every functional, contextual, and design detail into **one concise but complete instruction set** — as if it were the original prompt used to generate the app.
+
+---
+
+## The Reconstructed Prompt Must Include:
+
+### 1. Purpose & Goals
+- Describe **what** the app is meant to do.  
+- Explain **why** the app exists and its intended outcome.
+
+### 2. Functional Specifications
+- All **features**, **workflows**, and **logic**.  
+- Every **user interaction** and system behavior.
+
+### 3. Non-Functional Requirements
+- UI/UX style and tone.  
+- Performance constraints.  
+- Accessibility requirements.  
+- Other qualitative guidelines.
+
+### 4. Platform & Environment
+- Where the app runs (e.g., Replit, web, mobile).  
+- Language(s) and/or framework(s) used.  
+- Dependencies and integrations.
+
+### 5. Target Audience & Usage Context
+- Who will use the app.  
+- In what situations or environments it will be used.
+
+### 6. Constraints & Boundaries
+- Technical limitations.  
+- Content rules.  
+- Compliance or legal considerations.
+
+---
+
+## Output Requirement
+The final result must be a **standalone, ready-to-use prompt** that an AI or developer could follow to recreate the app **exactly**, without needing any additional information.
