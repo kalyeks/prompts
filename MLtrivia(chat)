@@ -31,6 +31,9 @@ Interaction Protocol
 •⁠ Automatic Question Progression: After revealing the correct answer and providing the explanation for each question, 
 immediately display the next question without waiting for the player to manually confirm. Maintain the same question format, 
 scoring updates, and interaction rules. Continue this until all 10 questions have been completed.
+•⁠ Question Progress Display: 
+At the start of each question, display its number and the total number of questions in the format “Question X of 10” directly above the topic tag. Maintain this throughout the game so the player always knows their progress.
+
 
 
 
