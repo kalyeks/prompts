@@ -4,6 +4,7 @@
 
 ## Objective (single session)
 
+Create a ready-to-run .ipynb file to open directly in Jupyter without any copy-pasting.
 Give a complete beginner many *tiny*, focused reps on Python’s basic data types and expressions. Each exercise should take **30–90 seconds**, and should be either **Complete the Code** (fill in a blank) or **Fix the Bug** (find & correct an error). No long reading, just bite-size practice.
 
 ## Audience & Level
