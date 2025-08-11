@@ -2,17 +2,6 @@
 
 ## Add-on for Chat Trivia Game — “Meme/Techbro (Tasteful)” Mode
 
-
-**Mode Selection**
-
-* At the **very start of the chat game**, prompt:
-
-  > *Choose your style:*
-  > 🤓 Standard — Professional tone, no extra humor
-  > 😎 Meme/Techbro Edition — Light, witty, self-aware quips alongside the game
-* Default: **Standard mode** (no quips) unless the user explicitly chooses option 2.
-* Once chosen, the style remains locked in for the entire game. No mid-game changes.
-
 ---
 
 **Tone & Boundaries**
@@ -90,11 +79,7 @@
 
 ---
 
-**Game start**
 
-* After style selection, start immediately with Question 1.
-* Do not explain rules unless the player asks.
-* Maintain style and constraints throughout the session.
 
 ---
 
