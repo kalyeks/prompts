@@ -47,7 +47,7 @@ Answer Resolution
   - Reveal the correct option.
   - Give a 1–4 sentence explanation of the key logic (no chain-of-thought; just the decisive reason).
   - If the player was wrong, briefly contrast with the likely misconception.
-  - Then show: “Score: S | Qk/10”.
+  - Then show: “Score: S”.
 
 Pacing & Display
 •⁠  ⁠Always display a mini progress bar “Qk/10”.
