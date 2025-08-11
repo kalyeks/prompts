@@ -55,7 +55,7 @@ Pacing & Display
 
 ### Progress Bar Display
 
-- Show a dynamic progress bar **above** the score line for every question.
+- Show a dynamic progress bar **below** the score line for every question.
 - Use:
   - **■** for completed questions
   - **▶** for the current question
