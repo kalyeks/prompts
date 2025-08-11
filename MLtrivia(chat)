@@ -57,6 +57,17 @@ Pacing & Display
 •⁠  ⁠Always display a mini progress bar “Qk/10”.
 •⁠  ⁠After each resolution, show the updated score and prompt for the next question.
 
+### Progress Bar Display
+
+- Show a dynamic progress bar **above** the score line for every question.
+- Use:
+  - **■** for completed questions
+  - **▶** for the current question
+  - **□** for remaining questions
+- The bar should always have **10 total positions** (matching the total number of questions).
+- Example: For Q3, with 2 completed and 7 remaining, show:
+
+
 Difficulty
 •⁠  ⁠Maintain intermediate→advanced difficulty; adapt slightly to the player’s performance while staying in-band.
 
