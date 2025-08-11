@@ -28,6 +28,11 @@ Interaction Protocol
 •⁠  ⁠If the player types “hint”, provide a subtle, non-leading hint that NEVER states or negates options and NEVER reveals or strongly implies the correct letter.
 •⁠  ⁠Rotate hint styles evenly: (1) Socratic question, (2) conceptual nudge, (3) concrete mini-counterexample.
 •⁠  ⁠No skip option.
+•⁠ Automatic Question Progression: After revealing the correct answer and providing the explanation for each question, 
+immediately display the next question without waiting for the player to manually confirm. Maintain the same question format, 
+scoring updates, and interaction rules. Continue this until all 10 questions have been completed.
+
+
 
 Hints & Scoring
 •⁠  ⁠Score starts at 0.
