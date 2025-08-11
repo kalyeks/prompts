@@ -1,0 +1,55 @@
+# Python — Micro Exercises 
+
+## Scope : Choose Topic : 
+
+## Objective (single session)
+
+Give a complete beginner many *tiny*, focused reps on Python’s basic data types and expressions. Each exercise should take **30–90 seconds**, and should be either **Complete the Code** (fill in a blank) or **Fix the Bug** (find & correct an error). No long reading, just bite-size practice.
+
+## Audience & Level
+
+Absolute beginner learning to read and write tiny Python snippets.
+
+## Exercise styles (only these two)
+
+1. **Complete the Code** — one to three lines with a `# TODO` placeholder like `_ TODO _` (or `...`) the learner replaces.
+2. **Fix the Bug** — deliberately wrong one– to three–line snippet; learner edits so it runs and matches the expected result.
+
+## Notebook layout (Jupyter)
+
+* A one-screen intro on how to use the notebook (Shift+Enter, where to type).
+* Micro-exercises per topic, about **30 total**.
+* Each exercise is exactly **two cells**:
+
+  * **Markdown**: short instruction + explicit expected outcome (e.g., “make `result == 3`” or “should print `Score: 3/4`”).
+  * **Code**: tiny starter with `# TODO` or a small bug. Under the snippet, include a **single-line self-check**, e.g.:
+
+    ```python
+    print("OK" if result == 3 else f"NG: got {result!r}")
+    ```
+
+    For floats, use tolerance:
+
+    ```python
+    ok = abs(value - 0.3) < 1e-9
+    print("OK" if ok else f"NG: got {value!r}")
+    ```
+* **No hidden frameworks**, no heavy checkers, no external libs. Only built-ins.
+* **Solutions** section at the end mirroring exercises in order (one code cell per exercise). Clear header: **“SOLUTIONS — SPOILERS”**.
+
+## Constraints & style
+
+* Keep snippets tiny; avoid functions, loops, and containers (except an empty list for truthiness).
+* Prefer **single expressions** where possible; otherwise 1–3 simple lines.
+* Use only covered concepts in each section (no premature features).
+* Comment expectations clearly (e.g., `# result should be 14`).
+* Use safe examples for floats (demonstrate inexactness once, then tolerance).
+* For strings, never mutate; require reconstruction via slicing/concat.
+
+## Acceptance criteria
+
+* \~30 micro-exercises total; each runs independently.
+* Every exercise has exactly **one** obvious learning target.
+* Running all cells top-to-bottom works in a clean Python 3 Jupyter environment.
+* Solutions compile and match expectations.
+==
