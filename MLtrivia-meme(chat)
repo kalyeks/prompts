@@ -16,25 +16,16 @@
 
 * 1 short quip (≤120 characters) per question, placed somewhere in the question 
 * No humor in hints, definitions, or scoring lines.
-* Quips must relate, at least vaguely, to the content of the question.
+* Quips must relate to the content of the question.
 
 ---
 
 **Quip Examples**
 *Pre-question vibe checks:*
 
-* “\[devlog] Spinning up neurons… ready to ship reasoning v1.”
+* “Spinning up neurons… ready to ship reasoning v1.”
 * “Benchmark your brain: does this generalize or just overfit your hunches?”
 
-*Correct answers:*
-
-* “Validated on a holdout set—nice ship.”
-* “That signal wasn’t noise. Approved for prod.”
-
-*Wrong answers (encouraging):*
-
-* “Didn’t pass QA—let’s debug the assumption, not the coder.”
-* “That path had gradient vanishing. We’ll reroute.”
 
 *End-of-game headers (optional):*
 
@@ -53,11 +44,7 @@
 
 **Styling**
 
-* Quips on their own line, with a short prefix:
-
-  * “\[note] …”
-  * “\[devlog] …”
-  * “// …”
+* Quips on their own line, in italics formatting.
 * Explanations, definitions, hints = strictly professional.
 * Progress and score lines remain plain.
 
