@@ -1,6 +1,9 @@
 
 
-I want a Python **code-reading** trivia game that trains me to *read Python like a language*: quickly parse structure, predict behavior, recognize common idioms, and spot simple bugs—without running code. Emphasis on comprehension and mental models over rote syntax.
+I want a Python **code-reading** trivia game that trains me to *read Python like a language*: quickly parse structure, 
+predict behavior, recognize common idioms, and spot simple bugs—without running code. 
+Emphasis on comprehension and mental models over rote syntax.
+
 
 # Refined Request (ready-to-use prompt)
 
@@ -13,7 +16,20 @@ I want a Python **code-reading** trivia game that trains me to *read Python like
 
 **Audience & Level**
 
-* **Beginner** learner building foundations, with gentle ramps to early-intermediate patterns only when clearly explained.
+* **Beginner** learner building foundations.
+Display and let user pick one of these categories at the beginning of the game : **10 beginner Python concept categories** :
+
+1. **Basic Data Types & Expressions** — Work with numbers, strings, booleans, and the operators that manipulate them.
+2. **Variables & Assignment** — Store, update, and unpack values with clear naming.
+3. **Control Flow** — Direct the program’s path using `if/elif/else`, Boolean logic, and truthiness.
+4. **Loops & Iteration** — Repeat actions with `for` and `while`, control loop execution with `break`/`continue`.
+5. **Data Structures** — Organize data in lists, tuples, dictionaries, and sets, and use comprehensions.
+6. **Functions** — Encapsulate logic into reusable blocks with parameters, returns, and scope rules.
+7. **String & Sequence Operations** — Access, slice, and manipulate text and collections with built-ins.
+8. **Mutability & Immutability** — Understand which objects can change in place and how that affects code.
+9. **Error Handling** — Anticipate and manage exceptions to keep programs running safely.
+10. **Modules & Imports** — Reuse code by importing Python’s standard library and custom modules.
+
 
 **Content Scope (balanced variety)**
 
