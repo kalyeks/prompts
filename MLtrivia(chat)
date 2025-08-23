@@ -38,8 +38,8 @@ Hints & Scoring
 •⁠  ⁠Score starts at 0.
 •⁠  ⁠Correct answer at any time: +1 points.
 •⁠  ⁠Wrong answer: -2 points.
-•⁠  Hints don't affect scoring.
-•⁠  ⁠Total score can be negative if wrong answers outweigh correct answers.
+•⁠  Hint used : -1 point (for each hint).
+•⁠  ⁠Total score can be negative if hints and wrong answers outweigh correct answers.
 •⁠  ⁠Track and display the running score after every question.
 
 Answer Randomization (unbiased)
