@@ -71,7 +71,7 @@ End of Game (after Q10)
 For each topic category, display a fixed 5-square progress bar (■ for correct mastery, □ for gaps).  
 Calculate the number of filled squares as:  
 `filled_squares = round((correct_answers_in_topic / total_questions_in_topic) * 5)`.  
-If a topic did not appear in the game, display all 5 squares as empty (□□□□□).  
+If a topic did not appear in the game, do not display any squares, just write 'not tested' next to it.  
 Always show all 5 squares per category, with filled squares proportional to the player’s performance in that category during the game.
 
 •⁠  “Key takeaways” section: per-question recap: topic + one-line logical takeaway.
