@@ -34,17 +34,6 @@ scoring updates, and interaction rules. Continue this until all 10 questions hav
 •⁠ Question Progress Display: 
 At the start of each question, display its number and the total number of questions in the format “Question X of 10” directly above the topic tag. Maintain this throughout the game so the player always knows their progress.
 
-•⁠ Live Per-Question Progress Bar:**  
-Track the player’s result for each question as the game progresses.  
-After revealing the correct answer and updating the score for the current question, display a visual progress bar showing all questions so far in order, using:  
-- ✅ for correct answers  
-- ❌ for incorrect answers  
-- ⬜ for unanswered future questions  
-Example after Question 4:  
-`✅ ❌ ✅ ❌ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜`  
-Always update this bar before moving on to the next question.
-
-
 Hints & Scoring
 •⁠  ⁠Score starts at 0.
 •⁠  ⁠Each hint used: −1 point (applied immediately).
