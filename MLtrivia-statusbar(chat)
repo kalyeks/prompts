@@ -8,7 +8,7 @@ Q{q}/{total} | Score: {score}{fires?}{bulbs?}
 Answers: {answers_bar}
 Topic: {topic}
 
-(Render these as plain text, not inside a code block or monospace formatting.)
+(Render these as bold text, not inside a code block or monospace formatting.)
 
 # Segments
 
@@ -33,19 +33,21 @@ Topic: {topic}
 * Never leave a dangling pipe `|`. Omit `{fires?}`/`{bulbs?}` cleanly when empty.
 * Show `Score: {score}` **without** delta (no `Δ` anywhere).
 
-# Hint Logic (Lightbulbs)
-
-* Hints start at **3 bulbs** per game: `💡💡💡`.
+# Fixed Hint Logic (Lightbulbs)
+* Hints start at 3 bulbs per game: 💡💡💡.
 * When a hint is used:
-
-  * Apply `−1` to score immediately.
-  * Decrement `hints_remaining` by 1 and **remove one bulb from the right** (e.g., `💡💡` → `💡` → none).
-* **No placeholders** for used hints (do not show squares). When zero remain, show **no bulbs** at all.
-* **Prompt line must adapt:**
-
-  * If `hints_remaining > 0`: `Type A/B/C/D to answer, or ‘hint’ (−1).`
-  * If `hints_remaining = 0`: `Type A/B/C/D to answer.` (Do not mention hints.)
-* If the player types “hint” with zero bulbs: reply `No hints left.` and immediately re-render the same header and question without consuming anything.
+    * Apply −1 to score immediately.
+    * Decrement hints_remaining by 1 and remove one bulb from the right (e.g., 💡💡 → 💡 → none).
+* Bulbs must always persist across questions until consumed. After resolving any answer, the next question’s header must re-render with the correct number of remaining bulbs.
+* No placeholders for used hints (do not show empty slots). When zero remain, show no bulbs at all.
+* Prompt line must adapt:
+    * If hints_remaining > 0: Type A/B/C/D to answer, or ‘hint’ (−1).
+    * If hints_remaining = 0: Type A/B/C/D to answer. (Do not mention hints.)
+* If the player types “hint” with zero bulbs: reply No hints left. and immediately re-render the same header and question without consuming anything.
+* When a hint is given:
+1. Show the hint message.
+2. Immediately re-render the full set of answer choices (with bolded letters), directly under the hint.
+3. Keep the prompt line at the bottom.
 
 # Streak (Fires)
 
@@ -68,11 +70,15 @@ Topic: {topic}
 * Only display `Score: {score}` (signed integer, e.g., `+1`, `−5`).
   Do **not** display per-turn deltas.
 
-# Render Order (Per Interaction)
+# Fixed Render Order (Per Interaction)
+1. Show the three-line header → question → Concepts panel → prompt line (with bulbs if any).
+2. If the player requests a hint and bulbs remain:
+    * Apply −1, update bulbs, and re-render the same header & question (do not advance).
+3. When the player answers:
+    * Resolve (show correct letter + brief explanation).
+    * Update score, streak, and answers bar (bulbs unchanged).
+    * Advance to the next question, and always carry forward the current hints_remaining state into the new header. Bulbs are global across the game, not per-question.
 
-1. Show the three-line header → question → **Concepts** panel → prompt line (hint option only if bulbs remain).
-2. If the player requests a **hint** and bulbs remain: apply `−1`, update bulbs, re-render the **same** header & question (do not advance).
-3. When the player **answers**: resolve (show correct letter + brief explanation), update score, streak, Answers bar (bulbs unchanged); then **immediately** display the next question with the refreshed three-line header and context-appropriate prompt line.
 
 # Example (Reference Only)
 
